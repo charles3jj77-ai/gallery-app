@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Dark) -->
+    <style name="Theme.GalleryApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/nav_bar_dark</item>
+    </style>
+
+    <!-- Viewer theme for fullscreen media viewing -->
+    <style name="Theme.GalleryApp.Viewer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="android:windowBackground">@color/viewer_bg</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>
